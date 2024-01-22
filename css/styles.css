@@ -574,7 +574,7 @@ a {
 
 .btn-close:hover,
 .btn-close:focus {
-  background-color: #404bbf;
+  fill: #fff;
   border: none;
 }
 
@@ -686,6 +686,7 @@ a {
 }
 
 .checkbox {
+  display: inline-flex;
   position: absolute;
   top: 0;
   left: 0;
