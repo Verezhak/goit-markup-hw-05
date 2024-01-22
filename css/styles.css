@@ -585,6 +585,7 @@ a {
 .close:hover,
 .close:focus {
   fill: #ffffff;
+  background-color: #404bbf;
 }
 
 .form-title {
