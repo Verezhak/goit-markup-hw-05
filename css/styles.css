@@ -687,7 +687,7 @@ a {
 }
 
 .checkbox {
-  display: inline-flex;
+  display: inline-block;
   position: absolute;
   top: 0;
   left: 0;
