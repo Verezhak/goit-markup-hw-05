@@ -669,11 +669,10 @@ a {
 /* checkbox */
 .checkbox-form {
   margin-bottom: 24px;
-  position: relative;
-}
+ }
 
 .checkbox {
-  margin-left: 24px;
+   margin-left: 24px; */
   color: #8e8f99;
   font-size: 12px;
   line-height: 1.17;
@@ -681,10 +680,9 @@ a {
 }
 
 .custom-checkbox {
-  display: inline-flex;
+   display: inline-flex; 
   position: absolute;
-  top: 0;
-  left: 0;
+   left: 24px;
   align-items: center;
   justify-content: center;
   fill: transparent;
