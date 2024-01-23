@@ -672,13 +672,7 @@ a {
   position: relative;
 }
 
-.hidden-checkbox:checked + .custom-checkbox .checkbox {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
-}
-
-.custom-checkbox {
+.checkbox {
   margin-left: 24px;
   color: #8e8f99;
   font-size: 12px;
@@ -686,7 +680,7 @@ a {
   letter-spacing: 0.04em;
 }
 
-.checkbox {
+.custom-checkbox {
   display: inline-flex;
   position: absolute;
   top: 0;
@@ -708,6 +702,12 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.hidden-checkbox:checked + .checkbox .custom-checkbox {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
 
 .form-link {
