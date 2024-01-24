@@ -349,7 +349,7 @@ a {
   position: relative;
   overflow: hidden;
 }
-.portfolio-img:hover .text-portfolio {
+.portfolio-item:hover .text-portfolio {
   transform: translatey(0);
 }
 .text-portfolio {
