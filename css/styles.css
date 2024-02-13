@@ -71,10 +71,7 @@ a {
   display: flex;
   gap: 40px;
 }
-.item-menu {
-  position: relative;
-  color: #404bbf;
-}
+
 .link-nav {
   color: #2e2f42;
   display: flex;
